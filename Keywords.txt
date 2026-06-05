@@ -1,0 +1,6 @@
+jRGB	Keyword1
+getGreen	Keyword2
+getBlue	Keyword2
+setLED	Keyword2
+fadeLED	Keyword2
+flashLEDred	Keyword2
