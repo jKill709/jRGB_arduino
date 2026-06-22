@@ -15,9 +15,9 @@ void jRGB::setPins(int redPin, int greenPin, int bluePin, bool isCommonAnode, in
 }
 
 void jRGB::setLED(int red, int green, int blue){
-	_red = red;
-	_green = green;
-	_blue = blue;
+	_redComp = red;
+	_greenComp = green;
+	_blueComp = blue;
 
 	if (isCommonAnode) {
 		analogWrite(ledRed, 255 - redValue);
