@@ -1,14 +1,14 @@
 #include <arduino.h>
 
-#ifndef jRGB_h
-#define jRGB_h
+#ifndef JRGB_h
+#define JRGB_h
 
 class jRGB {
 	public:
 		jRGB(int redPin, int greenPin, int bluePin, bool isCommonAnode) {
 			setPins(redPin, greenPin, bluePin, isCommonAnode, 0, 0, 0);
 		};
-		jRGB(int redPin, int greenPin, int bluePin, int red, int green, int blue)
+		jRGB(int redPin, int greenPin, int bluePin, int red, int green, int blue) {
 			setPins(redPin, greenPin, bluePin, isCommonAnode, red, green, blue);
 		};
 		int getRed() {
